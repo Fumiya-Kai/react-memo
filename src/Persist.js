@@ -10,7 +10,7 @@ function usePersist(ky, initVal) {
       console.log(err);
       return initVal;
     }
-  }
+  };
 
   const setValue = (val) => {
     try {
@@ -19,7 +19,7 @@ function usePersist(ky, initVal) {
     } catch(err) {
       console.log(err);
     }
-  }
+  };
 
   const [savedValue, setSavedValue] = useState(value);
 
