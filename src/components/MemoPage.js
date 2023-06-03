@@ -17,5 +17,7 @@ function MemoPage() {
       </div>
       <Memo />
     </div>
-  )
+  );
 }
+
+export default MemoPage;
